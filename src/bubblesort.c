@@ -63,7 +63,7 @@ void sort(struct node *top) {
 }
 
 void print(struct node *top) {
-  struct node* p = top;
+  struct node *p = top;
   printf(">> ");
   while (p->next != NULL) {
     printf("%d ", p->next->num);
